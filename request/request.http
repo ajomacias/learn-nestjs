@@ -1,0 +1,22 @@
+@api= http://localhost:3000
+
+#####
+GET {{api}}/todo
+Content-Type: application/json
+
+#####
+GET {{api}}/todo/1
+Content-Type: application/json
+
+#####
+PUT {{api}}/todo/1
+Content-Type: application/json
+
+#####
+POST {{api}}/todo
+Content-Type: application/json
+
+#####
+DELETE  {{api}}/todo/1
+Content-Type: application/json
+
